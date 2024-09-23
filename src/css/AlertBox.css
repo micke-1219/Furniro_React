@@ -1,0 +1,26 @@
+.alert-warning {
+    background-color: #B88E2F;
+    color: white;
+    position: absolute;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+.alert-dismissible {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-close-alert {
+    border: none;
+    color: white;
+    background-color: #B88E2F;
+    padding: 0;
+}

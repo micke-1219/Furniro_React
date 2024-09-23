@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+}
+
+.background {
+    background-image: url('../../public/images/background_1.png');
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.discover {
+    background-color: #FFF3E3;
+    width: max-content;
+    padding: 4rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 15rem;
+}
