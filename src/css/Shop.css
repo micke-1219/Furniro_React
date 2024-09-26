@@ -1,0 +1,27 @@
+.filter-section {
+    background-color: #F9F1E7;
+}
+
+.sort-section {
+    font-size: 18px;
+}
+
+.white-background {
+    background-color: white;
+    color: #B0B0B0;
+    padding: 1rem;
+}
+
+.pagination-link {
+    background-color: #F9F1E7;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pagination-link-selected {
+    color: white;
+    background-color: #B88E2F;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+}

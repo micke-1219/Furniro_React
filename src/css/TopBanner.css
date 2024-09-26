@@ -1,0 +1,15 @@
+.top-banner {
+    background-image: url('../../public/images/top_banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.breadcrumb-item.active {
+    color: #666666;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #000000;
+    content: var(--bs-breadcrumb-divider, ">");
+}

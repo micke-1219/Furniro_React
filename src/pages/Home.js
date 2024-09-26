@@ -1,11 +1,14 @@
 import '../css/Home.css';
 import ProductCard from '../components/ProductCard';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import AlertBox from '../components/AlertBox';
 
 function Home() {
   return (
     <div>
         {/* SECTION 1 */}
+        <Navbar />
         <div className='background'>
             <AlertBox />
             <div className='container'>
@@ -59,6 +62,7 @@ function Home() {
                 <button className='btn-white mt-5 mb-5'>Show More</button>
             </div>
         </div>
+        <Footer />
     </div>
   );
 }

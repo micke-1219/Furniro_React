@@ -1,13 +1,14 @@
 import '../css/Navbar.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div>
         <div className='container d-flex justify-content-between py-4'>
             <img className='main-logo' alt='logo' src='/images/main_logo.svg'/>
-            <div className='menu d-flex align-items-center'>
-                <p className='me-6'>Home</p>
-                <p className='me-6'>Shop</p>
+            <div className='navbar-links d-flex align-items-center'>
+                <Link to={'/'}><p className='me-6'>Home</p></Link>
+                <Link to={'/shop'}><p className='me-6'>Shop</p></Link>
                 <p className='me-6'>About</p>
                 <p>Contact</p>
             </div>

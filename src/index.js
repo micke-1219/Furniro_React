@@ -1,16 +1,22 @@
+import './css/index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/index.css';
-import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Footer from './components/Footer';
+import Shop from './pages/Shop';
+import ScrollToTop from './components/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <Home />
-    <Footer />
+    <BrowserRouter>
+    <ScrollToTop>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/shop' element={<Shop />} />
+      </Routes>
+    </ScrollToTop>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
