@@ -24,7 +24,7 @@ function Footer() {
                     <p>Returns</p>
                 </div>
             </div>
-            <p className='footer-border pt-4 pb-4'>2023 furino. All rights reverved</p>
+            <p className='footer-border pt-4 pb-4'>2023 Furniro. All rights reverved</p>
         </div>
     </div>
   );
